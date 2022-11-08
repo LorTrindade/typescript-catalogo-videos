@@ -2,7 +2,7 @@ import { Category } from "./category"
 import { omit } from 'lodash';
 
 describe('Category Unit Tests', () => {
-
+    
     test('category constructor', () => {
         let category = new Category({name: 'Movie'});
 
